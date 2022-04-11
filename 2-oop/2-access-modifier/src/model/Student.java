@@ -9,24 +9,4 @@ public class Student extends Person {
 		this.academicAbility = academicAbility;
 		this.pointLadder = pointLadder;
 	}
-
-	public int getAgeFromPerson() {
-		return this.age;
-	}
-	public String getAcademicAbility() {
-		return academicAbility;
-	}
-
-	public void setAcademicAbility(String academicAbility) {
-		this.academicAbility = academicAbility;
-	}
-
-	public float getPointLadder() {
-		return pointLadder;
-	}
-
-	public void setPointLadder(float pointLadder) {
-		this.pointLadder = pointLadder;
-	}
-	
 }

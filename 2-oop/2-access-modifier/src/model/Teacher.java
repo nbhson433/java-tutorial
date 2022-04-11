@@ -9,21 +9,4 @@ public class Teacher extends Person {
 		this.salary = salary;
 		this.numberOfSessionsPerWeek = numberOfSessionsPerWeek;
 	}
-
-	public float getSalary() {
-		return salary;
-	}
-
-	public void setSalary(float salary) {
-		this.salary = salary;
-	}
-
-	public int getNumberOfSessionsPerWeek() {
-		return numberOfSessionsPerWeek;
-	}
-
-	public void setNumberOfSessionsPerWeek(int numberOfSessionsPerWeek) {
-		this.numberOfSessionsPerWeek = numberOfSessionsPerWeek;
-	}
-
 }

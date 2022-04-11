@@ -1,6 +1,6 @@
 package model;
 public class Person {
-	private String name;
+	protected String name;
 	protected int age;
 	protected float height;
 
@@ -9,7 +9,7 @@ public class Person {
 		this.age = age;
 		this.height = height;
 	}
-	
+
 	public int getAge() {
 		return age;
 	}
